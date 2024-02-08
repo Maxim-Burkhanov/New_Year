@@ -1,0 +1,185 @@
+aside {
+    width: 305px;
+    height: 1440px;
+    background: url(/Instruments/Img/fontLeft.jpg);
+}
+
+.head{
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.head:hover {
+    background-color: burlywood;
+    font-size: 30px;
+}
+
+header {
+    width: 85vw;
+    height: 115px;
+    display: flex;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+footer {
+    width: 85vw;
+    height: 115px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+.h1 {
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: rgb(239, 223, 0);
+}
+
+.postcard_conteiner {
+    display: flex;
+    justify-content: center;
+}
+
+.postcard {
+    width: 1308px;
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url(/Instruments/Img/postcard.jpg) no-repeat;
+
+}
+
+.my_test {
+    width: 85vw;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(251, 248, 204, 1);
+}
+
+.year {
+    width: 85vw;
+    height: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgba(251, 248, 204, 1);
+}
+
+.third_section {
+    width: 85vw;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(251, 248, 204, 1);
+}
+
+.my_test_conteiner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.year_conteiner {
+    width: 55%;
+    margin-left: 25px;
+}
+
+.third_section_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 33px;
+}
+
+.text_test {
+    font-size: 24px;
+}
+.text_year {
+    animation-duration: 5;
+    animation-name: slidein;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+}
+
+.text_third_section {
+    width: 600px;
+    margin-left: 30px;
+    font-size: 24px;
+    animation-duration: 5s;
+    animation-name: slideinSecond;
+}
+
+.year_mass {
+    align-self: flex-end;
+    width: 55%;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 22px;
+}
+
+.img2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/* @keyframes slideinSecond {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+} */
